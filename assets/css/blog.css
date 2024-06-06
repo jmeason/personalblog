@@ -1,0 +1,34 @@
+/* this goes with blog.html or posts page*/
+
+#posts-page{
+    padding: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ #posts-list{
+    padding: 0;
+ }
+ #posts-lists li{
+    border: 2px solid grey;
+    margin: 10x 0;
+    padding:10px
+ }
+
+ @media screen and (max-wdith: 760px)
+ {
+   
+     
+ #posts-lists li{
+     display: flex;
+     flex: wrap;
+     flex-direction: column;
+     flex: 0 1 200px;
+     border-radius: 0%;
+ }
+     
+ }
+ 
