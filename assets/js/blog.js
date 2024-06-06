@@ -40,9 +40,5 @@ toggleMode.addEventListener('click', () => {
 });
 
 
-//handling the back buton
-backButton.addEventListener('click', () => {
-    window.location.href = 'index.html';})
-//loads the posts when the posts loads
-loadPosts();
+
 
