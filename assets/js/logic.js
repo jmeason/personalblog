@@ -27,3 +27,8 @@
           localStorage.setItem('isDarkMode', isDarkMode);
         });
       });
+//handling the back buton
+backButton.addEventListener('click', () => {
+    window.location.href = 'index.html';})
+//loads the posts when the posts loads
+loadPosts();
