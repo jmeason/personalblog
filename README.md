@@ -1,3 +1,6 @@
+![personallight](https://github.com/jmeason/personalblog/assets/121059050/cc1ddfbe-fdc1-4fb3-bfd5-fd6ce63b20ec)
+![personaldarkmode](https://github.com/jmeason/personalblog/assets/121059050/8db4b7d6-0185-4098-b497-671c18251858)
+![personalblog1](https://github.com/jmeason/personalblog/assets/121059050/460981e3-cf83-4e27-ad45-660ce845c3c2)
 #Personal Blog Application
 
 This personal blog will allow users to create and view blog posts, with the things we have learned with HTML, CSS, and Javascript. It also allows users to submit forms that will be stored in local storage and lets the users go inbetween light and dark mode.
