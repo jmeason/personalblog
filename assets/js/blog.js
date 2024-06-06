@@ -9,15 +9,24 @@ const backButton=document.getElementById('back-button')
 function loadPosts() {
 const jsonString = localStorage.getItem('blogData');
     let blogData = JSON.parse(jsonString);
-console.log(blogData)
-
+console.log(blogData);
+  
 //create for loop with all 
 //get blog post data from local storage
-blogData.forEach(post => {
-    const postItem=document.createElement('li');
-        
-
-} )
+if (blogData.length> 0) {
+    blogData.forEach() ;
+    const jsonString = localStorage.getItem('blogData');
+    let blogData = JSON.parse(jsonString);
+        postItem.innerHTML=`
+        <h2> ${post.title}</h2>
+        <p> ${post.content}</p>`
+    
+    else {
+        const noPosts=document.createElement ('p');
+     noPost.textcontent= 'No blog content available';  }
+             
+    }
+}
 
 }
 
