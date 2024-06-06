@@ -1,0 +1,30 @@
+/* the first page you will see--goes with the index.html file*/
+#landing-page {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 35px;
+border: 50px;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700pxx;
+}
+
+label {
+    margin-top: 10px;
+    font-size: large;
+  }
+  
+  input, textarea, button {
+    margin-top: 10px;
+   
+  }
+
+
+#error-message {
+    color: red;
+}
